@@ -1,0 +1,1 @@
+define(["require","three"],function(e){var t=e("three");return console.log("加载模块："+t.name),{name:"two"}});

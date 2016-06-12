@@ -1,0 +1,1 @@
+define(["two"],function(n){return 1+n});

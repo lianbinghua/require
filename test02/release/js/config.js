@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"./js",paths:{one:"mod/one",two:"mod/two",three:"mod/three"}});

@@ -1,0 +1,1 @@
+define("two",[],function(){return 2}),define("one",["two"],function(e){return 1+e}),define("sub/three",["../two"],function(e){return 1+e}),require.config({paths:"jquery/jquery-1.11.0.min"}),require(["one","sub/three"],function(e,n){alert(e+n)}),define("main",[],function(){});
